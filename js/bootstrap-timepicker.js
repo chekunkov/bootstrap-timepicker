@@ -162,6 +162,7 @@
         break;
       case 37: // left arrow
         e.preventDefault();
+        this.updateFromElementVal();
         this.highlightPrevUnit();
         break;
       case 38: // up arrow
@@ -188,6 +189,7 @@
         break;
       case 39: // right arrow
         e.preventDefault();
+        this.updateFromElementVal();
         this.highlightNextUnit();
         break;
       case 40: // down arrow
